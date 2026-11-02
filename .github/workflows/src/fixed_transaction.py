@@ -1,4 +1,4 @@
-def process_transaction(user_id, amount, db_connection):  # noqa: F841
+def process_transaction(user_id, amount, db_connection):
     # Исправление 1: Инициализация до if
     status = "pending"
     
